@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 > [!IMPORTANT]
 > 
 > This is **not** an official Stanford University project. This is part of a demonstration for STATS 290 regarding Quarto portfolio websites and brands!
@@ -109,3 +110,7 @@ This will change the navigation bar background color to Cardinal Red, which is t
 [byml]: https://posit-dev.github.io/brand-yml/
 [qbyml]: https://prerelease.quarto.org/docs/authoring/brand.html
 
+=======
+# drivetera_quarto_website
+Bonus Activity for STATS290: Quarto Website 
+>>>>>>> origin/main
