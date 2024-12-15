@@ -1,0 +1,102 @@
+---
+title: "3D Terrain Visualization with Rayshader"
+author: "Terachet Rojrachsombat"
+date: "2024-12-14"
+format: 
+  html:
+    code-fold: true
+editor: visual
+---
+
+# 3D Terrain Visualization with Rayshader 🏔️
+
+This blog showcases 3D visualizations of four of the most mountainous regions in the world. Using **rayshader**, we render terrain data into stunning 3D plots.
+
+Regions visualized:
+1. **Mount Shasta** (North America)
+2. **Andes** (South America)
+3. **Mount Kilimanjaro** (Africa)
+4. **Himalayas** (Asia)
+
+---
+
+## Libraries and Setup
+
+```{r, message=FALSE, warning=FALSE}
+library(rayshader)
+library(elevatr)
+library(sf)
+library(terra)
+```
+
+## Render 3D Terrain Plots
+
+```{r, message=F, warning=F}
+render_terrain <- function(lon_min, lon_max, lat_min, lat_max, output_file = "terrain_render.png") {
+  # Create bounding box
+  bbox <- st_as_sf(
+    data.frame(x = c(lon_min, lon_max), y = c(lat_min, lat_max)),
+    coords = c("x", "y"), crs = 4326
+  )
+  
+  # Retrieve elevation data
+  elevation <- get_elev_raster(locations = bbox, z = 10, clip = "bbox")
+  elevation_matrix <- as.matrix(elevation)
+  
+  # Handle missing values
+  elevation_matrix[is.na(elevation_matrix)] <- 0
+  
+  # Apply shading and render
+  elevation_matrix %>%
+    sphere_shade(texture = "imhof1") %>%
+    plot_3d(elevation_matrix, zscale = 50, theta = -45, phi = 45, windowsize = c(1000, 800))
+  
+  # Render high-quality image
+  render_highquality(filename = output_file, samples = 200, light = TRUE)
+  
+  # Display the image in the Quarto document
+  knitr::include_graphics(output_file)
+}
+
+```
+
+### 1. Mount Shasta (North America)
+
+```{r, message=F, warning=F}
+render_terrain(
+  lon_min = -122.3, lon_max = -122.1,
+  lat_min = 41.3, lat_max = 41.5,
+  output_file = "mount_shasta_render.png"
+)
+```
+
+### 2. Andes (South America)
+
+```{r, message=F, warning=F}
+render_terrain(
+  lon_min = -72.5, lon_max = -72.3,
+  lat_min = -13.2, lat_max = -13.0,
+  output_file = "andes_render.png"
+)
+```
+
+### 3. Mount Kilimanjaro (Africa)
+
+```{r, message=F, warning=F}
+render_terrain(
+  lon_min = 37.3, lon_max = 37.5,
+  lat_min = -3.1, lat_max = -2.9,
+  output_file = "kilimanjaro_render.png"
+)
+```
+
+### 4. Himalayas (Asia)
+
+```{r, message=F, warning=F}
+render_terrain(
+  lon_min = 86.8, lon_max = 87.0,
+  lat_min = 27.8, lat_max = 28.0,
+  output_file = "himalayas_render.png"
+)
+```
+

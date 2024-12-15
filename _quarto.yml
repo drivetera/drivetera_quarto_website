@@ -2,26 +2,26 @@ project:
   type: website
 
 website:
-  title: "_brand.yml Demo"
+  title: "Drive Rojrachsombat's Home Page"
   navbar:
     left:
-      - text: "Home"
-        href: index.html
-      - text: "RevealJS"
-        href: index-revealjs.html
-      - text: "Dashboard"
-        href: dashboard.html
-      - text: "Typst"
-        href: index-typst.pdf
+      - text: "About"
+        href: about.html
+      - text: "Rayshader-Blog"
+        href: Rayshader-Blog.html
+      - text: "Favorite Links"
+        href: favorite-links.html
     tools:
       - icon: github
-        href: https://github.com/stanford-brand-yml/quarto-branded-website
+        href: https://github.com/drivetera
+      - icon: email
+        href: mailto:terachet@stanford.edu
 
 format:
   html:
     toc: true
     theme:
       - brand
+    css: styles.css
 
-# Use the brand file for all documents in the project
 brand: _brand.yml
