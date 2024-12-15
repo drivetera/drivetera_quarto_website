@@ -1,8 +1,8 @@
 # Based on the Stanford University brand guidelines: https://identity.stanford.edu/
-# This file is used to define the brand colors, typography, and logo for the site / Shiny apps.
+# Defines the brand colors, typography, and logo for the site / Shiny apps.
 
-# Important: 
-# Please note that is _not_ an official Stanford University product.
+# Important:
+# This is _not_ an official Stanford University product.
 
 meta:
   name:
@@ -26,12 +26,12 @@ color:
     sky: "#007C92"
     fog: "#DAD7CB"
     redwood: "#8D3C1E"
-    link-blue: "#006CB8"
+    link-blue: "#8C1515" # Override default blue with Cardinal Red
     white: "#FFFFFF"
     palo-alto: "#175E54"
     digital-red: "#B1040E"
     process-black: "#2E2D29"
-  
+
   foreground: process-black
   background: white
   primary: cardinal
@@ -40,59 +40,58 @@ color:
   success: palo-alto
   info: sky
   warning: digital-red
-  danger: cardinal-dark  
+  danger: cardinal-dark
   light: beige
   dark: process-black
 
 typography:
   fonts:
-    - source: bunny
+    - source: google
       family: "Source Sans Pro"
       weight: [300, 400, 600, 700]
       style: [normal, italic]
-    
-    - source: bunny
+
+    - source: google
       family: "Source Serif Pro"
       weight: [400, 600, 700]
       style: [normal]
-      
+
     - source: system
-      family: "Menlo"  # For monospace
-  
+      family: "Menlo, Monaco, Consolas, monospace"
+
   base:
     family: "Source Sans Pro"
     size: "16px"
     weight: 400
     line-height: 1.5
-  
+
   headings:
     family: "Source Serif Pro"
     weight: 600
     line-height: 1.2
-  
+
   monospace:
     family: "Menlo, Monaco, Consolas, monospace"
     size: "14px"
     weight: 400
-  
+
   link:
     weight: 400
     decoration: "underline"
 
-## The following may change in the future
-## Keep an eye on the Quarto documentation for updates and monitor
-## https://github.com/quarto-dev/quarto-cli/pull/11378
 defaults:
   bootstrap:
     navbar-bg: $brand-cardinal
+    link-color: $brand-cardinal
+    link-hover-color: $brand-cardinal-light
 
-#logo:
-#  small:
-#    light: "./assets/block-s.png"
-#    dark: "./assets/block-s.png"
-#  medium:
-#    light: "./assets/wordmark.svg"
-#    dark: "./assets/wordmark-reversed.svg"
-#  large:
-#    light: "./assets/signature.svg"
-#    dark: "./assets/signature-reversed.svg"
+logo:
+  small:
+    light: "./assets/block-s.png"
+    dark: "./assets/block-s-dark.png"
+  medium:
+    light: "./assets/wordmark.svg"
+    dark: "./assets/wordmark-reversed.svg"
+  large:
+    light: "./assets/signature.svg"
+    dark: "./assets/signature-reversed.svg"

@@ -7,7 +7,7 @@ website:
     left:
       - text: "About"
         href: about.html
-      - text: "Rayshader-Blog"
+      - text: "Rayshader Blog"
         href: Rayshader-Blog.html
       - text: "Favorite Links"
         href: favorite-links.html
@@ -19,9 +19,14 @@ website:
 
 format:
   html:
+    css: styles.css
     toc: true
     theme:
-      - brand
-    css: styles.css
-
+      - default
 brand: _brand.yml
+
+footer: |
+    <footer>
+      <p>© 2024 Stanford University. All Rights Reserved.</p>
+      <img src="assets/block-s.png" alt="Stanford Logo" class="stanford-logo">
+    </footer>

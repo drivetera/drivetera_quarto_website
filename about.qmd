@@ -33,11 +33,6 @@ Hello! My name is **Terachet (Drive) Rojrachsombat**, and I am a graduate studen
 - Employed NCAR’s LENS2 model experiments to isolate the effects of individual forcings.  
 - Findings suggest intensification of the Asian Summer Monsoon until 2060 due to greenhouse gas forcing.
 
-### **Stanford Statistics Department**  
-*Research Project* (Sep. 2024 – Present)  
-- Developed an R package to streamline NetCDF file analysis, reducing workflow complexity.  
-- Created 50+ tools for climate classification, climatology, and data visualization, preparing the package for CRAN publication.
-
 ### **Environmental Change and Human Outcomes Lab**  
 *Research Assistant* (Jun. – Sep. 2023)  
 - Analyzed rainfall and political outcomes in Sub-Saharan Africa using CHIRPS and conflict datasets.  

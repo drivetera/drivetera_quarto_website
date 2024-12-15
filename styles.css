@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: "Source Sans Pro", sans-serif; /* Only Source Sans Pro */
+    background-color: #FFFFFF; /* White background */
+    color: #2E2D29; /* Process Black text */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: #8C1515 !important; /* Cardinal Red */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #B83A4B !important;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #8C1515 !important; /* Cardinal Red */
+    border-bottom: 4px solid #820000; /* Darker Cardinal for strong border */
+}
+
+.navbar a {
+    color: #FFFFFF !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #8C1515 !important;
+    border-color: #820000 !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #8C1515;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #8C1515; /* Cardinal Red */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #FFFFFF !important;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #DAD7CB !important;
+}
+
+/* Logo Styling */
+.stanford-logo {
+    display: block;
+    margin: 20px auto 0; /* Centered with spacing */
+    max-width: 200px; /* Adjust size */
+    height: auto;
+}
