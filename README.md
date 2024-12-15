@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-> [!IMPORTANT]
-> 
 > This is **not** an official Stanford University project. This is part of a demonstration for STATS 290 regarding Quarto portfolio websites and brands!
 
 # Stanford Brand Demo - Quarto
