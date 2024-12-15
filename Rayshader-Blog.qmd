@@ -8,16 +8,7 @@ format:
 editor: visual
 ---
 
-# 3D Terrain Visualization with Rayshader 🏔️
-
 This blog showcases 3D visualizations of four of the most mountainous regions in the world. Using **rayshader**, we render terrain data into stunning 3D plots.
-
-Regions visualized:
-1. **Mount Shasta** (North America)
-2. **Andes** (South America)
-3. **Mount Kilimanjaro** (Africa)
-4. **Himalayas** (Asia)
-
 ---
 
 ## Libraries and Setup

@@ -1,0 +1,108 @@
+---
+title: "About"
+author: "Terachet (Drive) Rojrachsombat"
+date: "2024-12-14"
+format: html
+editor: visual
+---
+
+# About Me 🌍
+
+Hello! My name is **Terachet (Drive) Rojrachsombat**, and I am a graduate student at Stanford University pursuing a Master of Science in Earth Systems with a focus on **Climate Science and Climate Change**. My passion lies in understanding and addressing climate change through scientific research, education, and communication.
+
+---
+
+## Education 🎓
+
+- **Master of Science in Earth Systems Science**  
+  Stanford University (2024 – Present)  
+  - **Focus**: Physics and Chemistry of Climate  
+  - **Thesis**: *Atmospheric Composition Controls on the Monsoon System*
+
+- **Bachelor of Science in Earth Systems**  
+  Stanford University (2019 – 2024)  
+  - **Track**: Oceans, Atmosphere, and Climate  
+
+---
+
+## Research Experiences 🔬
+
+### **Atmospheric Composition and Climate Lab**  
+*Research Assistant* (Sep. 2023 – Present)  
+- Investigated the impact of aerosol and GHG forcings on the global monsoon system.  
+- Employed NCAR’s LENS2 model experiments to isolate the effects of individual forcings.  
+- Findings suggest intensification of the Asian Summer Monsoon until 2060 due to greenhouse gas forcing.
+
+### **Stanford Statistics Department**  
+*Research Project* (Sep. 2024 – Present)  
+- Developed an R package to streamline NetCDF file analysis, reducing workflow complexity.  
+- Created 50+ tools for climate classification, climatology, and data visualization, preparing the package for CRAN publication.
+
+### **Environmental Change and Human Outcomes Lab**  
+*Research Assistant* (Jun. – Sep. 2023)  
+- Analyzed rainfall and political outcomes in Sub-Saharan Africa using CHIRPS and conflict datasets.  
+- Identified connections between rainfall variability and political violence through causal inference methods.
+
+### **Stanford at Sea Program**  
+*Carbon System Researcher* (Apr. – Sep. 2022)  
+- Conducted an inorganic carbon survey during SEA Cruise S-303.  
+- Linked intermediate-depth pH decreases to La Niña events and water mass tracers.
+
+### **Severe Weather and Climate Lab**  
+*Research Assistant* (Jun. – Sep. 2020)  
+- Evaluated biases in CMIP6 models of the North American Monsoon.  
+- Found that global warming scenarios consistently weaken monsoon systems.
+
+---
+
+## Teaching and Mentorship 👨‍🏫
+
+### **Teaching Assistant**  
+*ESS246A/CEE261I: Atmosphere, Ocean, and Climate Dynamics* (Sep. 2024 – Present)  
+- Supported students with assignments, labs, and atmospheric analysis techniques.  
+- Delivered lectures and guided lab demonstrations with rotating tank experiments.
+
+### **Peer Advisor**  
+*Earth Systems Department, Stanford University* (Sep. 2023 – Jun. 2024)  
+- Advised students on academic planning, including course tracks and four-year plans.  
+- Organized events to foster community engagement within the Earth Systems program.
+
+### **International Geography Olympiad Tutor**  
+(Jan. 2017 – Jan. 2022)  
+- Trained and mentored Thai students, leading to international medal wins.  
+- Designed field excursions and practice exams for advanced geography topics.
+
+---
+
+## Awards and Distinctions 🏆
+
+- **Outstanding Service to the Earth Systems Program** – Stanford University (2024)  
+- **Dean’s Award for Undergraduate Academic Achievement** – Stanford University (2023)  
+- **Sustainability Research Grant** – Stanford Earth ($7,500, 2023)  
+- **Stanford Earth Summer Undergraduate Research Grant** – ($7,500, 2020) 
+- **National Student Award** – Thailand’s highest academic honor (2018)  
+- **Gold Medal** – International Geography Olympiad (2017)  
+
+---
+
+## Skills and Tools 💻
+
+- **Climate Models**: CMIP6, CMIP5, CESM2, ScenarioMIPs, AerChemMIP, AMIP, Single-Forcing Models  
+- **Reanalysis and Satellite Data**: NOAA/CIRES/DOE, NCEP, NCAR, GHCN, COBE, CHIRPS, CMAP, GPCC  
+- **Weather Analysis**: GFS, ECMWF, NAM, LogP-SkewT, Weather Radar, Doppler Radar, Weather Stations  
+- **R Programming**: Geospatial R, Package Development, Quarto, Rcpp, HTML, terra, raster, ncf4, ggplot2  
+- **Other Programming**: Git, Python, MATLAB, Jupyter, High-Performance Computing  
+- **Technical Writing**: Package documentation, academic papers, Quarto websites  
+- **Public Speaking**: Lecturing, tutoring, advising, science communication, media outreach  
+- **Leadership**: Research collaborations, activism experience, military leadership experience  
+
+---
+
+## Extracurricular Activities 🌟
+
+- **Stanford Marching Band (LSJUMB)** – Staff, Member, and Arranger of various scores (2022 – Present)  
+- **Community Emergency Response Team (CERT)** – Volunteer First Responder (2022 – Present)  
+- **Pro-Democracy Student Movement (Thailand)** – Active Coordinator and Participant (2020 – 2021)
+- **Climate Strike Thailand Student Movement** – Active Organizer and Participant (2019 – 2021)  
+- **Fossil Free Stanford at Stanford University** – Active Organizer and Member (2019 – 2020)  
+- **Thai Student Association at Stanford University** – Member (2019 – 2024)
