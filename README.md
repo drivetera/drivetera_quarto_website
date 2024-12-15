@@ -109,8 +109,3 @@ This will change the navigation bar background color to Cardinal Red, which is t
 [qmain]: https://quarto.org/
 [byml]: https://posit-dev.github.io/brand-yml/
 [qbyml]: https://prerelease.quarto.org/docs/authoring/brand.html
-
-=======
-# drivetera_quarto_website
-Bonus Activity for STATS290: Quarto Website 
->>>>>>> origin/main
