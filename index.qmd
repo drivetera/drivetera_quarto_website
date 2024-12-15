@@ -13,5 +13,49 @@ format:
         text: Favorite Links
 ---
 
-# Welcome to Drive Rojrachsombat's Website 🌍
+# Welcome! สวัสดีครับ! 🌍
+
+My name is **Drive** or **Terachet Rojrachsombat** (born February 11, 2000). I am currently pursuing a Master of Science in Earth Systems at Stanford University, I specialize in **Climatology and Meteorology**, with a focus on unraveling the complex interactions within Climate Change, aiming to be a professor one day.
+
+---
+
+## About Me 🌱
+
+Born and raised in Bangkok, Thailand, I developed an early passion for geography and philosophy. This dual interest led me to excel in both fields, earning **gold medals** at the International Geography Olympiad and Thailand Philosophy Olympiad. These formative experiences sparked a lifelong curiosity about the world and a commitment to addressing global environmental challenges.
+
+At Stanford University, I transitioned from climate activism to scientific research, where I’ve contributed to projects ranging from monsoon dynamics to carbon chemistry in the Pacific Ocean. My Master’s thesis explores how aerosols influence global monsoon systems, with implications for future climate adaptation strategies.
+
+Beyond research, I am passionate about teaching and mentoring. As a teaching assistant and peer advisor, I’ve guided students in courses on atmospheric dynamics and Earth systems science. I also remain committed to public outreach, translating complex scientific concepts into engaging lessons for diverse audiences.
+
+---
+
+## Highlights of My Journey 🚀
+
+- **Research Focus**: Climate modeling, monsoon dynamics, and aerosol-cloud interactions.  
+- **Philosophical Insight**: Integrating environmental ethics into scientific research.  
+- **Teaching Excellence**: Inspiring the next generation of environmental scientists.  
+- **Personal Passions**: Outdoor exploration, marine science, music, and history.  
+
+---
+
+## Where to Go Next? 🎓
+
+- [**About Me**](about.html): Learn more about my academic journey, research, and achievements.  
+- [**Rayshader Blog**](Rayshader-Blog.html): Explore my experiments with geospatial data and visualization.  
+- [**Favorite Links**](favorite-links.html): Check out my favorite resources and websites for science and inspiration.  
+
+
+## Fun & Favorites 🌟
+
+**Favorite Quote**
+*"The Earth is what we all have in common." – Wendell Berry*
+
+**Explore the Weather**
+- [**Earth Wind Map**](https://earth.nullschool.net/): Visualize global wind patterns in real time.
+---
+
+## Get in Touch 📬
+
+- [Email Me](mailto:terachet@stanford.edu)  
+- [GitHub](https://github.com/drivetera)  
 
